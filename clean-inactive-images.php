@@ -13,9 +13,9 @@
  * @package           Clean_Inactive_Images
  *
  * @wordpress-plugin
- * Plugin Name:       Clean inactive images
+ * Plugin Name:       Clean Inactive Images
  * Plugin URI:        http://idx.is
- * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
+ * Description:       Removes inactive (unused) images from uploads folder / media gallery.
  * Version:           1.0.0
  * Author:            Bruno Rodrigues
  * Author URI:        http://idx.is
