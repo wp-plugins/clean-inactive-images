@@ -14,9 +14,7 @@
 		<?php submit_button( 'Save' ); ?>
 	</form>
 
-	<p>
-		1 - Store all upload images in an array <br>
-	</p>
+	<p>BE PATIENT. THIS CAN TAKE A LOOOONG TIME TO FINISH!</p>
 
 	<p>
 		<button id="cii_start" class="button-primary">GO!</button>

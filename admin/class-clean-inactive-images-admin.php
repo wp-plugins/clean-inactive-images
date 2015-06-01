@@ -239,11 +239,11 @@ class Clean_Inactive_Images_Admin {
 
 	private function get_used_in_media_gallery() {
 		global $wpdb;
-		$attachment_ids = [ ];
+		$attachment_ids     = [ ];
 		$selected_post_type = get_option( 'cii_post_type' );
-		$post_type      = empty( $selected_post_type ) ? get_option( 'cii_post_type' ) : 'post';
-		$sql            = "SELECT post_content	FROM wp_posts where post_type = '" . $post_type . "' and (post_status = 'publish' or post_status = 'draft')";
-		$all_content    = $wpdb->get_results( $sql );
+		$post_type          = empty( $selected_post_type ) ? 'post' : $selected_post_type;
+		$sql                = "SELECT post_content	FROM wp_posts where post_type = '" . $post_type . "' and (post_status = 'publish' or post_status = 'draft')";
+		$all_content        = $wpdb->get_results( $sql );
 		foreach ( $all_content as $content ) {
 			if ( ! empty( $content ) ) {
 				preg_match( '/\[gallery.*ids=.(.*).\]/', $content->post_content, $images_ids );
