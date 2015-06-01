@@ -29,10 +29,3 @@
 if ( ! defined( 'WP_UNINSTALL_PLUGIN' ) ) {
 	exit;
 }
-
-global $wpdb;
-
-$table_name = $wpdb->prefix . 'cii_uploaded_images';
-$sql        = "DROP TABLE IF EXISTS $table_name";
-
-dbDelta( $sql );

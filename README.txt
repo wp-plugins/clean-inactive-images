@@ -10,15 +10,17 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Removes unused images from uploads folder
 
-* By now it checks images used in image galleries.
+* By now it ONLY checks images used in image galleries.
 
 Thanks to [WordPress Plugin Boilerplate](https://github.com/DevinVinson/WordPress-Plugin-Boilerplate)!
 
 == Installation ==
 
 1. BACKUP your database and uploads folder.
-1. Upload `clean-inactive-images.php` to the `/wp-content/plugins/` directory
+1. Upload `clean-inactive-images` folder to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
+
+Or download it via WordPress plugin directory.
 
 == Usage ==
 
