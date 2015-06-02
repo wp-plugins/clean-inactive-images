@@ -16,7 +16,7 @@
  * Plugin Name:       Clean Inactive Images
  * Plugin URI:        http://idx.is
  * Description:       Removes inactive (unused) images from uploads folder / media gallery.
- * Version:           1.0.1
+ * Version:           1.0.2
  * Author:            Bruno Rodrigues
  * Author URI:        http://idx.is
  * License:           GPL-2.0+
